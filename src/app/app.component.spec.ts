@@ -29,7 +29,7 @@ class TestHostComponent {
 
 @NgModule({
   entryComponents: [
-    MyComponent, // test don't work without this :(
+    MyComponent, // tests don't work without this :(
   ],
 })
 class TestMockModule { }
